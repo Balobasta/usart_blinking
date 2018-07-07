@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=uart.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\uart -TC:\CooCox\CoIDE\configuration\ProgramData\uart/link.ld -g">
+      <target file="uart.elf" lastModified="164753cd60e">
+         <source file="..\obj\system_stm32f10x.o" lastModified="164652eef9f"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="164652ef31f"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="164652ef76d"/>
+         <source file="..\obj\main.o" lastModified="164753cd1a6"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="164652effa2"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="164652f02ae"/>
+         <source file="..\obj\syscalls.o" lastModified="164652f0477"/>
+         <source file="..\obj\misc.o" lastModified="164652f0693"/>
+      </target>
+   </processor>
+</history>
